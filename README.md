@@ -38,7 +38,7 @@
 | ![锻造](screenshots/08_forge.webp)<br>锻造台：上砧、随机词条、自动落锤 | ![制符](screenshots/09_talisman.webp)<br>制符台：七系元素符，品阶印嵌进符胆 |
 | ![炼丹](screenshots/10_alchemy.webp)<br>炼丹炉：一炉只炼一味，火候分三成到十成 | ![功法库](screenshots/11_skill.webp)<br>功法库：4 键主动槽 + 被动 + 门派分册 |
 | ![万界图鉴](screenshots/12_codex.webp)<br>万界图鉴：BOSS 卡与属性 | ![万界塔](screenshots/13_tower.webp)<br>万界塔：逐层挑战与讨伐详情 |
-| ![华彩卡](screenshots/14_cards.webp)<br>卡牌自走棋 · 华彩卡（着色器视差） | ![开始界面](screenshots/01_title.webp)<br>开始界面 |
+| ![虎妖四张卡](screenshots/14_cards.webp)<br>成就收藏 · 虎妖四张卡（普通 / 华彩·有背景 / 纯华彩 / 纸本水墨） | ![开始界面](screenshots/01_title.webp)<br>开始界面 |
 
 ## 技术与规模
 
