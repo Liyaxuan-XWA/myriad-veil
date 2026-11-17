@@ -1,0 +1,1201 @@
+{
+	"bosses": [
+		{
+			"boss_id": "boss_huyao",
+			"boss_name": "虎妖",
+			"group_name": "虎妖功法",
+			"skills": [
+				{
+					"damage_element": "earth",
+					"desc": "一爪撕开，身前尽是裂痕。",
+					"family": "tiger",
+					"form_id": "form_slash_single",
+					"form_name": "横斩",
+					"motif": "claw",
+					"passive": false,
+					"skill_id": "skill_tiger_claw",
+					"skill_name": "虎爪裂空"
+				},
+				{
+					"damage_element": "earth",
+					"desc": "掀地一抓，砂石扑面。",
+					"family": "tiger",
+					"form_id": "form_arrow",
+					"form_name": "射箭",
+					"motif": "volley",
+					"passive": false,
+					"skill_id": "skill_tiger_rock",
+					"skill_name": "碎岩飞砂"
+				},
+				{
+					"damage_element": "earth",
+					"desc": "连掀数把砂石，铺天盖地。",
+					"family": "tiger",
+					"form_id": "form_arrow_volley",
+					"form_name": "五连射",
+					"motif": "volley",
+					"passive": false,
+					"skill_id": "skill_tiger_sandstorm",
+					"skill_name": "砂石乱舞"
+				},
+				{
+					"damage_element": "earth",
+					"desc": "双掌重踏，地面为之震颤。",
+					"family": "tiger",
+					"form_id": "form_smash",
+					"form_name": "砸地",
+					"motif": "stomp",
+					"passive": false,
+					"skill_id": "skill_tiger_stomp",
+					"skill_name": "猛虎踏地"
+				},
+				{
+					"damage_element": "water",
+					"desc": "吐出凝着虎煞之气的妖丹。",
+					"family": "tiger",
+					"form_id": "form_element_orb",
+					"form_name": "元素法球",
+					"motif": "orb",
+					"passive": false,
+					"skill_id": "skill_tiger_orb",
+					"skill_name": "虎煞妖丹"
+				}
+			]
+		},
+		{
+			"boss_id": "boss_01",
+			"boss_name": "刀客",
+			"group_name": "刀客功法",
+			"skills": [
+				{
+					"damage_element": "metal",
+					"desc": "刀客的起手式，干净利落的一记横扫。",
+					"family": "blade",
+					"form_id": "form_blade_slash",
+					"form_name": "横斩",
+					"motif": "slash",
+					"passive": false,
+					"skill_id": "skill_blade_slash",
+					"skill_name": "横斩"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "沉肩落步，自上而下的一刀。斩中挂重伤 3 秒：不能闪避、移速减半。",
+					"family": "blade",
+					"form_id": "form_blade_heavy",
+					"form_name": "沉步竖斩",
+					"motif": "slash",
+					"passive": false,
+					"skill_id": "skill_blade_heavy",
+					"skill_name": "沉步竖斩"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "踏碎步法抢进身位，人到刀到。",
+					"family": "blade",
+					"form_id": "form_blade_dash",
+					"form_name": "破步突进斩",
+					"motif": "dash",
+					"passive": false,
+					"skill_id": "skill_blade_dash",
+					"skill_name": "破步突进斩"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "借着转身的势头反手削出。",
+					"family": "blade",
+					"form_id": "form_blade_turn",
+					"form_name": "回身斩",
+					"motif": "spin",
+					"passive": false,
+					"skill_id": "skill_blade_turn",
+					"skill_name": "回身斩"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "刀锋过处，留下一道未散的痕迹。",
+					"family": "blade",
+					"form_id": "form_blade_scar",
+					"form_name": "留痕斩",
+					"motif": "slash",
+					"passive": false,
+					"skill_id": "skill_blade_scar",
+					"skill_name": "留痕斩"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "把刀意送出去，追着痕迹走。",
+					"family": "blade",
+					"form_id": "form_blade_qi",
+					"form_name": "刀气追击",
+					"motif": "qi",
+					"passive": false,
+					"skill_id": "skill_blade_qi",
+					"skill_name": "刀气追击"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "一片刀域压下，先封退路，再收人头。",
+					"family": "blade",
+					"form_id": "form_blade_field",
+					"form_name": "封路刀域",
+					"motif": "field",
+					"passive": false,
+					"skill_id": "skill_blade_field",
+					"skill_name": "封路刀域"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "以守为攻 —— 挨得越多，还回去的越重。",
+					"family": "blade",
+					"form_id": "form_blade_counter",
+					"form_name": "纳势反击",
+					"motif": "ward",
+					"passive": false,
+					"skill_id": "skill_blade_counter",
+					"skill_name": "纳势反击"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "目标踏在刀痕上时，倾尽所有的一斩。",
+					"family": "blade",
+					"form_id": "form_blade_peak",
+					"form_name": "满势断岳",
+					"motif": "peak",
+					"passive": false,
+					"skill_id": "skill_blade_peak",
+					"skill_name": "满势断岳"
+				}
+			]
+		},
+		{
+			"boss_id": "boss_01_c",
+			"boss_name": "剑客",
+			"group_name": "剑客功法",
+			"skills": [
+				{
+					"damage_element": "metal",
+					"desc": "一剑直取，快过视线。",
+					"family": "sword",
+					"form_id": "form_sword_stab",
+					"form_name": "刺",
+					"motif": "thrust",
+					"passive": false,
+					"skill_id": "skill_sword_stab",
+					"skill_name": "刺"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "剑锋贴地而起，撩起一片寒光。",
+					"family": "sword",
+					"form_id": "form_sword_lift",
+					"form_name": "撩",
+					"motif": "slash",
+					"passive": false,
+					"skill_id": "skill_sword_lift",
+					"skill_name": "撩"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "举剑过顶，全力下劈。",
+					"family": "sword",
+					"form_id": "form_sword_chop",
+					"form_name": "斩",
+					"motif": "slash",
+					"passive": false,
+					"skill_id": "skill_sword_chop",
+					"skill_name": "斩"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "袖手一挥，一剑破空而去。",
+					"family": "sword",
+					"form_id": "form_sword_cloud",
+					"form_name": "云",
+					"motif": "cloud",
+					"passive": false,
+					"skill_id": "skill_sword_cloud",
+					"skill_name": "云"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "锁定对手，人与剑一同穿过。",
+					"family": "sword",
+					"form_id": "form_sword_pierce",
+					"form_name": "穿",
+					"motif": "pierce",
+					"passive": false,
+					"skill_id": "skill_sword_pierce",
+					"skill_name": "穿"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "万剑听令，自鞘中齐出。",
+					"family": "sword",
+					"form_id": "form_sword_myriad",
+					"form_name": "万剑归宗",
+					"motif": "summon",
+					"passive": false,
+					"skill_id": "skill_sword_myriad",
+					"skill_name": "万剑归宗"
+				},
+				{
+					"damage_element": "metal",
+					"desc": "剑意尽注于一剑，可开天光。",
+					"family": "sword",
+					"form_id": "form_sword_heaven",
+					"form_name": "一剑开天",
+					"motif": "heaven",
+					"passive": false,
+					"skill_id": "skill_sword_heaven",
+					"skill_name": "一剑开天"
+				},
+				{
+					"damage_element": "",
+					"desc": "剑心不昧，意到锋随。",
+					"family": "",
+					"form_id": "",
+					"form_name": "",
+					"motif": "",
+					"passive": true,
+					"skill_id": "skill_sword_intent",
+					"skill_name": "剑心通明"
+				}
+			]
+		},
+		{
+			"boss_id": "boss_02",
+			"boss_name": "两仪真人",
+			"group_name": "两仪真人功法",
+			"skills": [
+				{
+					"damage_element": "fire",
+					"desc": "阳火焚脉，近身一掌。",
+					"family": "yinyang",
+					"form_id": "form_yinyang_palm",
+					"form_name": "阳诀·焚脉掌",
+					"motif": "slash",
+					"passive": false,
+					"skill_id": "skill_yinyang_palm",
+					"skill_name": "阳诀·焚脉掌"
+				},
+				{
+					"damage_element": "water",
+					"desc": "青黑指力贯穿一线，中者阴蚀入骨。",
+					"family": "yinyang",
+					"form_id": "form_yinyang_finger",
+					"form_name": "阴诀·玄冥指",
+					"motif": "thrust",
+					"passive": false,
+					"skill_id": "skill_yinyang_finger",
+					"skill_name": "阴诀·玄冥指"
+				},
+				{
+					"damage_element": "none",
+					"desc": "拨转仪态，阴阳易位。",
+					"family": "yinyang",
+					"form_id": "form_yinyang_flip",
+					"form_name": "两仪转",
+					"motif": "spin",
+					"passive": false,
+					"skill_id": "skill_yinyang_flip",
+					"skill_name": "两仪转"
+				},
+				{
+					"damage_element": "none",
+					"desc": "阴阳二气归于一点，倾泻而出。",
+					"family": "yinyang",
+					"form_id": "form_yinyang_collapse",
+					"form_name": "太极崩",
+					"motif": "stomp",
+					"passive": false,
+					"skill_id": "skill_yinyang_collapse",
+					"skill_name": "太极崩"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "三步叠浪，一浪高过一浪。",
+					"family": "yinyang",
+					"form_id": "form_yinyang_triple",
+					"form_name": "阳关三叠",
+					"motif": "dash",
+					"passive": false,
+					"skill_id": "skill_yinyang_triple",
+					"skill_name": "阳诀·三叠踏"
+				},
+				{
+					"damage_element": "water",
+					"desc": "阴风自立身之处盘踞，不须瞄准。",
+					"family": "yinyang",
+					"form_id": "form_yinyang_wind",
+					"form_name": "阴风蚀骨",
+					"motif": "field",
+					"passive": false,
+					"skill_id": "skill_yinyang_wind",
+					"skill_name": "阴诀·蚀骨风"
+				},
+				{
+					"damage_element": "none",
+					"desc": "一阴一阳，双鱼衔尾而至。",
+					"family": "yinyang",
+					"form_id": "form_yinyang_fish",
+					"form_name": "阴阳双鱼",
+					"motif": "volley",
+					"passive": false,
+					"skill_id": "skill_yinyang_fish",
+					"skill_name": "两仪·双鱼"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "仪态倒悬，同源之力尽数奉还。",
+					"family": "yinyang",
+					"form_id": "form_yinyang_counter",
+					"form_name": "两仪倒悬",
+					"motif": "ward",
+					"passive": false,
+					"skill_id": "skill_yinyang_counter",
+					"skill_name": "两仪·倒悬"
+				},
+				{
+					"damage_element": "",
+					"desc": "万物负阴而抱阳，冲气以为和。",
+					"family": "",
+					"form_id": "",
+					"form_name": "",
+					"motif": "",
+					"passive": true,
+					"skill_id": "skill_yinyang_harmony",
+					"skill_name": "负阴抱阳"
+				}
+			]
+		},
+		{
+			"boss_id": "boss_02_b",
+			"boss_name": "定阵先生",
+			"group_name": "定阵先生功法",
+			"skills": [
+				{
+					"damage_element": "earth",
+					"desc": "一旗落定，星位自成。",
+					"family": "array",
+					"form_id": "form_array_plant",
+					"form_name": "插旗·定星",
+					"motif": "rune",
+					"passive": false,
+					"skill_id": "skill_array_plant",
+					"skill_name": "插旗·定星"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "两旗之间崩起一道朱弦。",
+					"family": "array",
+					"form_id": "form_array_line",
+					"form_name": "引阵·朱弦",
+					"motif": "cord",
+					"passive": false,
+					"skill_id": "skill_array_line",
+					"skill_name": "引阵·朱弦"
+				},
+				{
+					"damage_element": "earth",
+					"desc": "旗随线起，卷回身侧。",
+					"family": "array",
+					"form_id": "form_array_pull",
+					"form_name": "卷阵·收旗",
+					"motif": "cord",
+					"passive": false,
+					"skill_id": "skill_array_pull",
+					"skill_name": "卷阵·收旗"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "四面旗成，四象成牢。",
+					"family": "array",
+					"form_id": "form_array_seal",
+					"form_name": "封阵·四象",
+					"motif": "box",
+					"passive": false,
+					"skill_id": "skill_array_seal",
+					"skill_name": "封阵·四象"
+				},
+				{
+					"damage_element": "earth",
+					"desc": "盘若轮转，旗风横天。",
+					"family": "array",
+					"form_id": "form_array_sweep",
+					"form_name": "扫阵·横天",
+					"motif": "slash",
+					"passive": false,
+					"skill_id": "skill_array_sweep",
+					"skill_name": "扫阵·横天"
+				},
+				{
+					"damage_element": "earth",
+					"desc": "踩罡步斗，一步一旗。",
+					"family": "array",
+					"form_id": "form_array_step",
+					"form_name": "踏阵·走罡",
+					"motif": "dash",
+					"passive": false,
+					"skill_id": "skill_array_step",
+					"skill_name": "踏阵·走罡"
+				},
+				{
+					"damage_element": "earth",
+					"desc": "旗作山岳，一落镇地。",
+					"family": "array",
+					"form_id": "form_array_pile",
+					"form_name": "垒旗·镇岳",
+					"motif": "stomp",
+					"passive": false,
+					"skill_id": "skill_array_pile",
+					"skill_name": "垒旗·镇岳"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "万阵皆解，雷自旗落。",
+					"family": "array",
+					"form_id": "form_array_burst",
+					"form_name": "解阵·雷落",
+					"motif": "pillars",
+					"passive": false,
+					"skill_id": "skill_array_burst",
+					"skill_name": "解阵·雷落"
+				}
+			]
+		},
+		{
+			"boss_id": "boss_02_c",
+			"boss_name": "太虚气君",
+			"group_name": "太虚气君功法",
+			"skills": [
+				{
+					"damage_element": "wind",
+					"desc": "一息入怀，气环自生。",
+					"family": "qi",
+					"form_id": "form_qi_gather",
+					"form_name": "引气·聚环",
+					"motif": "qi_cloud",
+					"passive": false,
+					"skill_id": "skill_qi_gather",
+					"skill_name": "引气·聚环"
+				},
+				{
+					"damage_element": "wind",
+					"desc": "气冲一线，裂石分云。",
+					"family": "qi",
+					"form_id": "form_qi_wave",
+					"form_name": "冲气·裂空",
+					"motif": "qi_cloud",
+					"passive": false,
+					"skill_id": "skill_qi_wave",
+					"skill_name": "冲气·裂空"
+				},
+				{
+					"damage_element": "wind",
+					"desc": "身随气转，风自成环。",
+					"family": "qi",
+					"form_id": "form_qi_spin",
+					"form_name": "御风·回旋",
+					"motif": "qi_cloud",
+					"passive": false,
+					"skill_id": "skill_qi_spin",
+					"skill_name": "御风·回旋"
+				},
+				{
+					"damage_element": "wind",
+					"desc": "气结如锁，脉滞难行。",
+					"family": "qi",
+					"form_id": "form_qi_lock",
+					"form_name": "气锁·缚脉",
+					"motif": "qi_cloud",
+					"passive": false,
+					"skill_id": "skill_qi_lock",
+					"skill_name": "气锁·缚脉"
+				},
+				{
+					"damage_element": "wind",
+					"desc": "引进落空，借力还施。",
+					"family": "qi",
+					"form_id": "form_qi_ward",
+					"form_name": "化劲·卸力",
+					"motif": "qi_cloud",
+					"passive": false,
+					"skill_id": "skill_qi_ward",
+					"skill_name": "化劲·卸力"
+				},
+				{
+					"damage_element": "wind",
+					"desc": "一步罡斗，缩地成寸。",
+					"family": "qi",
+					"form_id": "form_qi_step",
+					"form_name": "踏罡·缩地",
+					"motif": "qi_cloud",
+					"passive": false,
+					"skill_id": "skill_qi_step",
+					"skill_name": "踏罡·缩地"
+				},
+				{
+					"damage_element": "wind",
+					"desc": "周天一转，气海倾泻。",
+					"family": "qi",
+					"form_id": "form_qi_burst",
+					"form_name": "气爆·周天",
+					"motif": "qi_cloud",
+					"passive": false,
+					"skill_id": "skill_qi_burst",
+					"skill_name": "气爆·周天"
+				},
+				{
+					"damage_element": "wind",
+					"desc": "一吐一纳，气归丹田。",
+					"family": "qi",
+					"form_id": "form_qi_breath",
+					"form_name": "归元·吐纳",
+					"motif": "qi_cloud",
+					"passive": false,
+					"skill_id": "skill_qi_breath",
+					"skill_name": "归元·吐纳"
+				},
+				{
+					"damage_element": "",
+					"desc": "环息相济，伤彼以养己。",
+					"family": "",
+					"form_id": "",
+					"form_name": "",
+					"motif": "",
+					"passive": true,
+					"skill_id": "skill_qi_ring_heal",
+					"skill_name": "气环·回息"
+				}
+			]
+		},
+		{
+			"boss_id": "boss_03",
+			"boss_name": "赫连霄",
+			"group_name": "赫连霄功法",
+			"skills": [
+				{
+					"damage_element": "thunder",
+					"desc": "笔锋落处，天律即成。",
+					"family": "thunder",
+					"form_id": "form_thunder_verdict",
+					"form_name": "判词·天律",
+					"motif": "thunder",
+					"passive": false,
+					"skill_id": "skill_thunder_verdict",
+					"skill_name": "判词·天律"
+				},
+				{
+					"damage_element": "thunder",
+					"desc": "笔尖一点，天雷落于所点之处。",
+					"family": "thunder",
+					"form_id": "form_thunder_execute",
+					"form_name": "定刑·雷殛",
+					"motif": "thunder",
+					"passive": false,
+					"skill_id": "skill_thunder_execute",
+					"skill_name": "定刑·雷殛"
+				},
+				{
+					"damage_element": "thunder",
+					"desc": "鼓面一响，雷从地起。",
+					"family": "thunder",
+					"form_id": "form_thunder_drum",
+					"form_name": "雷鼓·震天",
+					"motif": "thunder",
+					"passive": false,
+					"skill_id": "skill_thunder_drum",
+					"skill_name": "雷鼓·震天"
+				},
+				{
+					"damage_element": "thunder",
+					"desc": "雷链贴地游走，锁住脚步与身法。",
+					"family": "thunder",
+					"form_id": "form_thunder_lock",
+					"form_name": "锁雷·缚魂",
+					"motif": "thunder",
+					"passive": false,
+					"skill_id": "skill_thunder_lock",
+					"skill_name": "锁雷·缚魂"
+				},
+				{
+					"damage_element": "thunder",
+					"desc": "身化雷光，一步即至。",
+					"family": "thunder",
+					"form_id": "form_thunder_step",
+					"form_name": "雷遁·换位",
+					"motif": "thunder",
+					"passive": false,
+					"skill_id": "skill_thunder_step",
+					"skill_name": "雷遁·换位"
+				},
+				{
+					"damage_element": "thunder",
+					"desc": "以身为引，九霄之雷尽入此身。",
+					"family": "thunder",
+					"form_id": "form_thunder_gather",
+					"form_name": "聚雷·引霆",
+					"motif": "thunder",
+					"passive": false,
+					"skill_id": "skill_thunder_gather",
+					"skill_name": "聚雷·引霆"
+				},
+				{
+					"damage_element": "thunder",
+					"desc": "雷势越高，落下的雷柱越多。",
+					"family": "thunder",
+					"form_id": "form_thunder_nine",
+					"form_name": "九霄·雷罚",
+					"motif": "thunder",
+					"passive": false,
+					"skill_id": "skill_thunder_nine",
+					"skill_name": "九霄·雷罚"
+				},
+				{
+					"damage_element": "thunder",
+					"desc": "雷环收拢，牢中之人尽受天罚。",
+					"family": "thunder",
+					"form_id": "form_thunder_prison",
+					"form_name": "雷牢·天罚",
+					"motif": "thunder",
+					"passive": false,
+					"skill_id": "skill_thunder_prison",
+					"skill_name": "雷牢·天罚"
+				},
+				{
+					"damage_element": "",
+					"desc": "雷威积于敌身，九击而震。",
+					"family": "",
+					"form_id": "",
+					"form_name": "",
+					"motif": "",
+					"passive": true,
+					"skill_id": "skill_thunder_accum",
+					"skill_name": "雷积·震魂"
+				}
+			]
+		},
+		{
+			"boss_id": "boss_03_b",
+			"boss_name": "离照",
+			"group_name": "离照功法",
+			"skills": [
+				{
+					"damage_element": "fire",
+					"desc": "身化日影，一步夺火。",
+					"family": "sun",
+					"form_id": "form_sun_step",
+					"form_name": "逐日步",
+					"motif": "sun",
+					"passive": false,
+					"skill_id": "skill_sun_step",
+					"skill_name": "逐日步"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "日轮扇扫过，火冕层层叠开。",
+					"family": "sun",
+					"form_id": "form_sun_slash",
+					"form_name": "日冕斩",
+					"motif": "sun",
+					"passive": false,
+					"skill_id": "skill_sun_slash",
+					"skill_name": "日冕斩"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "把手中的太阳掷出去。",
+					"family": "sun",
+					"form_id": "form_sun_throw",
+					"form_name": "投日",
+					"motif": "sun",
+					"passive": false,
+					"skill_id": "skill_sun_throw",
+					"skill_name": "投日"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "金丝倒卷，把太阳拉回掌心。",
+					"family": "sun",
+					"form_id": "form_sun_pull",
+					"form_name": "牵日",
+					"motif": "sun",
+					"passive": false,
+					"skill_id": "skill_sun_pull",
+					"skill_name": "牵日"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "热浪推着余烬逆飞。",
+					"family": "sun",
+					"form_id": "form_sun_wind",
+					"form_name": "焚风",
+					"motif": "sun",
+					"passive": false,
+					"skill_id": "skill_sun_wind",
+					"skill_name": "焚风"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "黑日吞光，随后万物焚尽。",
+					"family": "sun",
+					"form_id": "form_sun_eclipse",
+					"form_name": "日蚀",
+					"motif": "sun",
+					"passive": false,
+					"skill_id": "skill_sun_eclipse",
+					"skill_name": "日蚀"
+				},
+				{
+					"damage_element": "",
+					"desc": "天火随身，烬而复燃。",
+					"family": "sun",
+					"form_id": "",
+					"form_name": "",
+					"motif": "sun",
+					"passive": true,
+					"skill_id": "skill_sun_wheel",
+					"skill_name": "盗火者"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "天上那轮火，掉下来了。",
+					"family": "sun",
+					"form_id": "form_sun_meteor",
+					"form_name": "天火坠",
+					"motif": "sun",
+					"passive": false,
+					"skill_id": "skill_sun_meteor",
+					"skill_name": "天火坠"
+				}
+			]
+		},
+		{
+			"boss_id": "boss_03_c",
+			"boss_name": "晏无咎",
+			"group_name": "晏无咎功法",
+			"skills": [
+				{
+					"damage_element": "wind",
+					"desc": "一步踏碎云头，风从脚底起。",
+					"family": "calamity",
+					"form_id": "form_calamity_step",
+					"form_name": "风灾·裂云步",
+					"motif": "calamity",
+					"passive": false,
+					"skill_id": "skill_calamity_step",
+					"skill_name": "风灾·裂云步"
+				},
+				{
+					"damage_element": "wind",
+					"desc": "风刃横过，空处先断。",
+					"family": "calamity",
+					"form_id": "form_calamity_slash",
+					"form_name": "风灾·断空斩",
+					"motif": "calamity",
+					"passive": false,
+					"skill_id": "skill_calamity_slash",
+					"skill_name": "风灾·断空斩"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "一印落额，火从印里生。",
+					"family": "calamity",
+					"form_id": "form_calamity_fire_seal",
+					"form_name": "火灾·焚天印",
+					"motif": "calamity",
+					"passive": false,
+					"skill_id": "skill_calamity_fire_seal",
+					"skill_name": "火灾·焚天印"
+				},
+				{
+					"damage_element": "fire",
+					"desc": "火不挑地方，落在哪里就烧到哪里。",
+					"family": "calamity",
+					"form_id": "form_calamity_fire_field",
+					"form_name": "火灾·燎原",
+					"motif": "calamity",
+					"passive": false,
+					"skill_id": "skill_calamity_fire_field",
+					"skill_name": "火灾·燎原"
+				},
+				{
+					"damage_element": "thunder",
+					"desc": "指尖一引，雷从天上认人。",
+					"family": "calamity",
+					"form_id": "form_calamity_thunder_strike",
+					"form_name": "雷灾·引雷诀",
+					"motif": "calamity",
+					"passive": false,
+					"skill_id": "skill_calamity_thunder_strike",
+					"skill_name": "雷灾·引雷诀"
+				},
+				{
+					"damage_element": "thunder",
+					"desc": "雷落地成池，池里的人连念头都慢半拍。",
+					"family": "calamity",
+					"form_id": "form_calamity_thunder_pool",
+					"form_name": "雷灾·雷池",
+					"motif": "calamity",
+					"passive": false,
+					"skill_id": "skill_calamity_thunder_pool",
+					"skill_name": "雷灾·雷池"
+				},
+				{
+					"damage_element": "none",
+					"desc": "轮一转，天就换一副脸。",
+					"family": "calamity",
+					"form_id": "form_calamity_turn",
+					"form_name": "三灾轮转",
+					"motif": "calamity",
+					"passive": false,
+					"skill_id": "skill_calamity_turn",
+					"skill_name": "三灾轮转"
+				},
+				{
+					"damage_element": "none",
+					"desc": "三灾不再轮转，一起落下。",
+					"family": "calamity",
+					"form_id": "form_calamity_final",
+					"form_name": "万劫归一",
+					"motif": "calamity",
+					"passive": false,
+					"skill_id": "skill_calamity_final",
+					"skill_name": "万劫归一"
+				},
+				{
+					"damage_element": "",
+					"desc": "三灾加身，风火雷随位而变；未装备时八式走灾劫连锁。",
+					"family": "",
+					"form_id": "",
+					"form_name": "",
+					"motif": "",
+					"passive": true,
+					"skill_id": "skill_calamity_body",
+					"skill_name": "三灾·灾身"
+				}
+			]
+		},
+		{
+			"boss_id": "boss_04",
+			"boss_name": "观澜",
+			"group_name": "观澜功法",
+			"skills": [
+				{
+					"damage_element": "water",
+					"desc": "起身前斩出一道水银弧，横扫身前一片。",
+					"family": "mirror",
+					"form_id": "form_mirror_slash",
+					"form_name": "镜水斩",
+					"motif": "mirror",
+					"passive": false,
+					"skill_id": "skill_mirror_slash",
+					"skill_name": "镜水斩"
+				},
+				{
+					"damage_element": "water",
+					"desc": "镜中倒影先递刺，真身才跟上；直线上的人会被穿透。",
+					"family": "mirror",
+					"form_id": "form_mirror_thrust",
+					"form_name": "照影刺",
+					"motif": "mirror",
+					"passive": false,
+					"skill_id": "skill_mirror_thrust",
+					"skill_name": "照影刺"
+				},
+				{
+					"damage_element": "water",
+					"desc": "在脚下凝出一具自己的镜像。镜像会跟着你使出下一门功法，然后消散。",
+					"family": "mirror",
+					"form_id": "form_mirror_bloom",
+					"form_name": "镜花",
+					"motif": "mirror",
+					"passive": false,
+					"skill_id": "skill_mirror_bloom",
+					"skill_name": "镜花"
+				},
+				{
+					"damage_element": "water",
+					"desc": "捏碎自己的镜像，镜片在镜像处炸开并拖慢敌人。",
+					"family": "mirror",
+					"form_id": "form_mirror_shatter",
+					"form_name": "碎镜",
+					"motif": "mirror",
+					"passive": false,
+					"skill_id": "skill_mirror_shatter",
+					"skill_name": "碎镜"
+				},
+				{
+					"damage_element": "water",
+					"desc": "与自己的镜像互换位置，落地短暂无形。",
+					"family": "mirror",
+					"form_id": "form_mirror_swap",
+					"form_name": "换镜",
+					"motif": "mirror",
+					"passive": false,
+					"skill_id": "skill_mirror_swap",
+					"skill_name": "换镜"
+				},
+				{
+					"damage_element": "water",
+					"desc": "横镜架势：第一次打过来的术法会被镜面挡下，并原样反弹回去。",
+					"family": "mirror",
+					"form_id": "form_mirror_return",
+					"form_name": "镜返",
+					"motif": "mirror",
+					"passive": false,
+					"skill_id": "skill_mirror_return",
+					"skill_name": "镜返"
+				},
+				{
+					"damage_element": "water",
+					"desc": "在脚下铺一圈镜水，持续减速并间歇造成水伤。",
+					"family": "mirror",
+					"form_id": "form_mirror_ring",
+					"form_name": "水镜环",
+					"motif": "mirror",
+					"passive": false,
+					"skill_id": "skill_mirror_ring",
+					"skill_name": "镜湖"
+				},
+				{
+					"damage_element": "water",
+					"desc": "一次把镜像补到上限；它们会跟着你使出后续的功法。",
+					"family": "mirror",
+					"form_id": "form_mirror_myriad",
+					"form_name": "万镜归一",
+					"motif": "mirror",
+					"passive": false,
+					"skill_id": "skill_mirror_myriad",
+					"skill_name": "万镜"
+				},
+				{
+					"damage_element": "",
+					"desc": "完美闪避后留下一具镜像；8 秒内最多触发一次。",
+					"family": "",
+					"form_id": "",
+					"form_name": "",
+					"motif": "",
+					"passive": true,
+					"skill_id": "skill_mirror_echo",
+					"skill_name": "照影"
+				}
+			]
+		},
+		{
+			"boss_id": "boss_04_b",
+			"boss_name": "执烛",
+			"group_name": "执烛功法",
+			"skills": [
+				{
+					"damage_element": "water",
+					"desc": "身前横削一记；影长够长时，影尖同帧反手补一段。",
+					"family": "shadow",
+					"form_id": "form_shadow_cut",
+					"form_name": "削影",
+					"motif": "shadow",
+					"passive": false,
+					"skill_id": "skill_shadow_cut",
+					"skill_name": "削影"
+				},
+				{
+					"damage_element": "water",
+					"desc": "把影子钉出去：这一刺的射程等于你当前的影长。",
+					"family": "shadow",
+					"form_id": "form_shadow_reach",
+					"form_name": "投晷",
+					"motif": "shadow",
+					"passive": false,
+					"skill_id": "skill_shadow_reach",
+					"skill_name": "投晷"
+				},
+				{
+					"damage_element": "water",
+					"desc": "在影尖按住敌人：短暂钉在原地（仍可出手），随后补一斩。",
+					"family": "shadow",
+					"form_id": "form_shadow_bind",
+					"form_name": "缚影",
+					"motif": "shadow",
+					"passive": false,
+					"skill_id": "skill_shadow_bind",
+					"skill_name": "缚影"
+				},
+				{
+					"damage_element": "water",
+					"desc": "朝输入方向突进，灯笼被甩在身后 —— 掠过的走廊上影刃横扫，落点影子更长。",
+					"family": "shadow",
+					"form_id": "form_shadow_step",
+					"form_name": "踏灯",
+					"motif": "shadow",
+					"passive": false,
+					"skill_id": "skill_shadow_step",
+					"skill_name": "踏灯"
+				},
+				{
+					"damage_element": "water",
+					"desc": "把灯笼收到贴身：影长归零，换来这段时间物理功法伤害上涨。",
+					"family": "shadow",
+					"form_id": "form_shadow_dim",
+					"form_name": "明灭",
+					"motif": "shadow",
+					"passive": false,
+					"skill_id": "skill_shadow_dim",
+					"skill_name": "明灭"
+				},
+				{
+					"damage_element": "water",
+					"desc": "沿自身影身打出一道水寒光束，命中拖慢脚步；光束与影子同向时走廊更宽。",
+					"family": "shadow",
+					"form_id": "form_shadow_beam",
+					"form_name": "照骨",
+					"motif": "shadow",
+					"passive": false,
+					"skill_id": "skill_shadow_beam",
+					"skill_name": "照骨"
+				},
+				{
+					"damage_element": "water",
+					"desc": "把影子撕下来代你横扫数秒；这段时间影系的投晷 / 缚影 / 分影用不了。",
+					"family": "shadow",
+					"form_id": "form_shadow_split",
+					"form_name": "分影",
+					"motif": "shadow",
+					"passive": false,
+					"skill_id": "skill_shadow_split",
+					"skill_name": "分影"
+				},
+				{
+					"damage_element": "water",
+					"desc": "把灯笼甩到身前远处，一段时间内影长上限暴涨 —— 影技射程全开的窗口。",
+					"family": "shadow",
+					"form_id": "form_shadow_longnight",
+					"form_name": "长夜 · 一灯",
+					"motif": "shadow",
+					"passive": false,
+					"skill_id": "skill_shadow_longnight",
+					"skill_name": "长夜"
+				},
+				{
+					"damage_element": "",
+					"desc": "灯笼拖得更远，影长整体上涨；完美闪避后短时间影长直接拉满。",
+					"family": "",
+					"form_id": "",
+					"form_name": "",
+					"motif": "",
+					"passive": true,
+					"skill_id": "skill_shadow_lamp",
+					"skill_name": "执灯"
+				}
+			]
+		},
+		{
+			"boss_id": "boss_04_c",
+			"boss_name": "叠纸",
+			"group_name": "叠纸功法",
+			"skills": [
+				{
+					"damage_element": "water",
+					"desc": "身前按下一掌；折痕存在且敌人在痕对侧时，对侧镜像同帧落一段掌印。",
+					"family": "fold",
+					"form_id": "form_fold_press",
+					"form_name": "按纸",
+					"motif": "fold",
+					"passive": false,
+					"skill_id": "skill_fold_press",
+					"skill_name": "按纸"
+				},
+				{
+					"damage_element": "wind",
+					"desc": "有痕就贴着痕滑出去，无痕就朝输入方向突进 —— 掠过的这条线上两面一起割。",
+					"family": "fold",
+					"form_id": "form_fold_trace",
+					"form_name": "循痕",
+					"motif": "fold",
+					"passive": false,
+					"skill_id": "skill_fold_trace",
+					"skill_name": "循痕"
+				},
+				{
+					"damage_element": "water",
+					"desc": "从这头的圆牌跨进去、从那头的圆牌出来并落斩；附近没有对位区时退化为直线突进。",
+					"family": "fold",
+					"form_id": "form_fold_stride",
+					"form_name": "跨缝",
+					"motif": "fold",
+					"passive": false,
+					"skill_id": "skill_fold_stride",
+					"skill_name": "跨缝"
+				},
+				{
+					"damage_element": "water",
+					"desc": "在身前裁出一道只属于你自己的折痕：这段时间你的招式都带镜像落点。",
+					"family": "fold",
+					"form_id": "form_fold_pressmark",
+					"form_name": "押痕",
+					"motif": "fold",
+					"passive": false,
+					"skill_id": "skill_fold_seam",
+					"skill_name": "裁痕"
+				},
+				{
+					"damage_element": "water",
+					"desc": "折一层纸护身：首次受击大幅减伤，这段时间镜像判定对你关闭（对面的手够不着你）。",
+					"family": "fold",
+					"form_id": "form_fold_shroud",
+					"form_name": "叠掩",
+					"motif": "fold",
+					"passive": false,
+					"skill_id": "skill_fold_shroud",
+					"skill_name": "叠掩"
+				},
+				{
+					"damage_element": "thunder",
+					"desc": "顺着痕撕开一条长直线；消耗你自己的折痕时，这一段按全额结算、不再打折。",
+					"family": "fold",
+					"form_id": "form_fold_tear",
+					"form_name": "碎痕",
+					"motif": "fold",
+					"passive": false,
+					"skill_id": "skill_fold_tear",
+					"skill_name": "碎痕"
+				},
+				{
+					"damage_element": "water",
+					"desc": "折痕两端的圆牌各立起一具纸影，两道线同时朝目标合过来。",
+					"family": "fold",
+					"form_id": "form_fold_twin",
+					"form_name": "双屏",
+					"motif": "fold",
+					"passive": false,
+					"skill_id": "skill_fold_twin",
+					"skill_name": "双屏"
+				},
+				{
+					"damage_element": "water",
+					"desc": "痕全开时三个互通区在同一刻落掌 —— 你只能站在其中一个里，另外两个照样挨打。",
+					"family": "fold",
+					"form_id": "form_fold_triple",
+					"form_name": "三重落纸",
+					"motif": "fold",
+					"passive": false,
+					"skill_id": "skill_fold_triple",
+					"skill_name": "三重落纸"
+				},
+				{
+					"damage_element": "",
+					"desc": "穿过圆牌后下一次攻击加重；站在折痕附近时，你的镜像落点比例上涨。",
+					"family": "fold",
+					"form_id": "",
+					"form_name": "",
+					"motif": "fold",
+					"passive": true,
+					"skill_id": "skill_fold_measure",
+					"skill_name": "量折"
+				}
+			]
+		}
+	],
+	"count": 101,
+	"generated": "2026-11-04 07:33:52"
+}

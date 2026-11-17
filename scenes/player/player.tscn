@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://ic7of6qrj6ve"]
+
+[ext_resource type="Script" uid="uid://b0toppi4fbkr6" path="res://scripts/player/player.gd" id="1_player"]
+[ext_resource type="Script" uid="uid://codqqubmwiew8" path="res://scripts/visual/skin_visual.gd" id="2_skin"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_player"]
+radius = 12.0
+height = 62.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_attack"]
+radius = 12.0
+height = 40.0
+
+[node name="Player" type="CharacterBody2D" unique_id=212983930]
+collision_mask = 42
+motion_mode = 1
+script = ExtResource("1_player")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=396929280]
+position = Vector2(0, -32)
+shape = SubResource("CapsuleShape2D_player")
+
+[node name="Visual" type="Node2D" parent="." unique_id=1848539443]
+
+[node name="Skin" type="Node2D" parent="Visual" unique_id=1505912417]
+script = ExtResource("2_skin")
+visual_id = "player_liqingyun"
+
+[node name="AttackHitbox" type="Area2D" parent="." unique_id=830538818]
+collision_layer = 0
+collision_mask = 2
+
+[node name="AttackShape" type="CollisionShape2D" parent="AttackHitbox" unique_id=158483146]
+position = Vector2(24, -29)
+shape = SubResource("CapsuleShape2D_attack")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1055461925]
+position_smoothing_enabled = true

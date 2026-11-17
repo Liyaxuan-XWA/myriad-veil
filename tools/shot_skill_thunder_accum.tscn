@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/shot_skill_thunder_accum.gd" id="1"]
+
+[node name="ShotSkillThunderAccum" type="Node"]
+script = ExtResource("1")

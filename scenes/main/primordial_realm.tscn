@@ -1,0 +1,328 @@
+[gd_scene load_steps=8 format=3 uid="uid://primordial_realm"]
+
+[ext_resource type="Script" path="res://scripts/main/primordial_realm.gd" id="1_realm"]
+[ext_resource type="Script" path="res://scripts/main/facility.gd" id="2_facility"]
+[ext_resource type="Script" path="res://scripts/main/primordial_player.gd" id="3_player"]
+[ext_resource type="Script" path="res://scripts/visual/skin_visual.gd" id="4_skin"]
+
+[sub_resource type="RectangleShape2D" id="Rect_facility"]
+size = Vector2(120, 80)
+
+[sub_resource type="CapsuleShape2D" id="Capsule_player"]
+radius = 12.0
+height = 62.0
+
+[node name="PrimordialRealm" type="Node2D"]
+script = ExtResource("1_realm")
+
+[node name="Ground" type="Node2D" parent="."]
+z_index = -10
+
+[node name="Skin" type="Node2D" parent="Ground"]
+script = ExtResource("4_skin")
+visual_id = "bg_primordial_realm"
+
+[node name="Facilities" type="Node2D" parent="."]
+
+[node name="Arena" type="Area2D" parent="Facilities" groups=["facility"]]
+position = Vector2(520, 320)
+script = ExtResource("2_facility")
+facility_id = "arena"
+facility_name = "演武场"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Facilities/Arena"]
+shape = SubResource("Rect_facility")
+
+[node name="Visual" type="ColorRect" parent="Facilities/Arena"]
+offset_left = -60.0
+offset_top = -40.0
+offset_right = 60.0
+offset_bottom = 40.0
+color = Color(0.55, 0.3, 0.25, 1.0)
+mouse_filter = 2
+
+[node name="NameLabel" type="Label" parent="Facilities/Arena"]
+offset_left = -60.0
+offset_top = -12.0
+offset_right = 60.0
+offset_bottom = 12.0
+theme_overrides/font_sizes/font_size = 16
+text = "演武场"
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Match" type="Area2D" parent="Facilities" groups=["facility"]]
+position = Vector2(260, 420)
+script = ExtResource("2_facility")
+facility_id = "match"
+facility_name = "万界棋坛"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Facilities/Match"]
+shape = SubResource("Rect_facility")
+
+[node name="Visual" type="ColorRect" parent="Facilities/Match"]
+offset_left = -60.0
+offset_top = -40.0
+offset_right = 60.0
+offset_bottom = 40.0
+color = Color(0.24, 0.42, 0.5, 1.0)
+mouse_filter = 2
+
+[node name="NameLabel" type="Label" parent="Facilities/Match"]
+offset_left = -60.0
+offset_top = -12.0
+offset_right = 60.0
+offset_bottom = 12.0
+theme_overrides/font_sizes/font_size = 16
+text = "万界棋坛"
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Tower" type="Area2D" parent="Facilities" groups=["facility"]]
+position = Vector2(520, -300)
+script = ExtResource("2_facility")
+facility_id = "tower"
+facility_name = "万界塔"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Facilities/Tower"]
+shape = SubResource("Rect_facility")
+
+[node name="Visual" type="ColorRect" parent="Facilities/Tower"]
+offset_left = -60.0
+offset_top = -40.0
+offset_right = 60.0
+offset_bottom = 40.0
+color = Color(0.25, 0.35, 0.5, 1.0)
+mouse_filter = 2
+
+[node name="NameLabel" type="Label" parent="Facilities/Tower"]
+offset_left = -60.0
+offset_top = -12.0
+offset_right = 60.0
+offset_bottom = 12.0
+theme_overrides/font_sizes/font_size = 16
+text = "万界塔"
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="DomainGate" type="Area2D" parent="Facilities" groups=["facility"]]
+position = Vector2(0, -140)
+script = ExtResource("2_facility")
+facility_id = "domain_gate"
+facility_name = "万界秘境"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Facilities/DomainGate"]
+shape = SubResource("Rect_facility")
+
+[node name="Visual" type="ColorRect" parent="Facilities/DomainGate"]
+offset_left = -60.0
+offset_top = -40.0
+offset_right = 60.0
+offset_bottom = 40.0
+color = Color(0.25, 0.35, 0.5, 1.0)
+mouse_filter = 2
+
+[node name="NameLabel" type="Label" parent="Facilities/DomainGate"]
+offset_left = -60.0
+offset_top = -12.0
+offset_right = 60.0
+offset_bottom = 12.0
+theme_overrides/font_sizes/font_size = 16
+text = "万界秘境"
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Alchemy" type="Area2D" parent="Facilities" groups=["facility"]]
+position = Vector2(-560, -300)
+script = ExtResource("2_facility")
+facility_id = "alchemy"
+facility_name = "炼丹房"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Facilities/Alchemy"]
+shape = SubResource("Rect_facility")
+
+[node name="Visual" type="ColorRect" parent="Facilities/Alchemy"]
+offset_left = -60.0
+offset_top = -40.0
+offset_right = 60.0
+offset_bottom = 40.0
+color = Color(0.25, 0.35, 0.5, 1.0)
+mouse_filter = 2
+
+[node name="NameLabel" type="Label" parent="Facilities/Alchemy"]
+offset_left = -60.0
+offset_top = -12.0
+offset_right = 60.0
+offset_bottom = 12.0
+theme_overrides/font_sizes/font_size = 16
+text = "炼丹房"
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Talisman" type="Area2D" parent="Facilities" groups=["facility"]]
+position = Vector2(-560, 100)
+script = ExtResource("2_facility")
+facility_id = "talisman"
+facility_name = "制符台"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Facilities/Talisman"]
+shape = SubResource("Rect_facility")
+
+[node name="Visual" type="ColorRect" parent="Facilities/Talisman"]
+offset_left = -60.0
+offset_top = -40.0
+offset_right = 60.0
+offset_bottom = 40.0
+color = Color(0.25, 0.35, 0.5, 1.0)
+mouse_filter = 2
+
+[node name="NameLabel" type="Label" parent="Facilities/Talisman"]
+offset_left = -60.0
+offset_top = -12.0
+offset_right = 60.0
+offset_bottom = 12.0
+theme_overrides/font_sizes/font_size = 16
+text = "制符台"
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Memory" type="Area2D" parent="Facilities" groups=["facility"]]
+position = Vector2(0, 420)
+script = ExtResource("2_facility")
+facility_id = "memory"
+facility_name = "记忆幻像碑"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Facilities/Memory"]
+shape = SubResource("Rect_facility")
+
+[node name="Visual" type="ColorRect" parent="Facilities/Memory"]
+offset_left = -60.0
+offset_top = -40.0
+offset_right = 60.0
+offset_bottom = 40.0
+color = Color(0.25, 0.35, 0.5, 1.0)
+mouse_filter = 2
+
+[node name="NameLabel" type="Label" parent="Facilities/Memory"]
+offset_left = -60.0
+offset_top = -12.0
+offset_right = 60.0
+offset_bottom = 12.0
+theme_overrides/font_sizes/font_size = 16
+text = "记忆幻像碑"
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Equipment" type="Area2D" parent="Facilities" groups=["facility"]]
+position = Vector2(-260, 340)
+script = ExtResource("2_facility")
+facility_id = "equipment"
+facility_name = "装备锻造台"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Facilities/Equipment"]
+shape = SubResource("Rect_facility")
+
+[node name="Visual" type="ColorRect" parent="Facilities/Equipment"]
+offset_left = -60.0
+offset_top = -40.0
+offset_right = 60.0
+offset_bottom = 40.0
+color = Color(0.25, 0.35, 0.5, 1.0)
+mouse_filter = 2
+
+[node name="NameLabel" type="Label" parent="Facilities/Equipment"]
+offset_left = -60.0
+offset_top = -12.0
+offset_right = 60.0
+offset_bottom = 12.0
+theme_overrides/font_sizes/font_size = 16
+text = "装备锻造台"
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Warehouse" type="Area2D" parent="Facilities" groups=["facility"]]
+position = Vector2(-580, 340)
+script = ExtResource("2_facility")
+facility_id = "warehouse"
+facility_name = "仓库"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Facilities/Warehouse"]
+shape = SubResource("Rect_facility")
+
+[node name="Visual" type="ColorRect" parent="Facilities/Warehouse"]
+offset_left = -60.0
+offset_top = -40.0
+offset_right = 60.0
+offset_bottom = 40.0
+color = Color(0.25, 0.35, 0.5, 1.0)
+mouse_filter = 2
+
+[node name="NameLabel" type="Label" parent="Facilities/Warehouse"]
+offset_left = -60.0
+offset_top = -12.0
+offset_right = 60.0
+offset_bottom = 12.0
+theme_overrides/font_sizes/font_size = 16
+text = "仓库"
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="Player" type="CharacterBody2D" parent="."]
+position = Vector2(0, 100)
+script = ExtResource("3_player")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
+position = Vector2(0, -31)
+shape = SubResource("Capsule_player")
+
+[node name="Visual" type="Node2D" parent="Player"]
+
+[node name="Skin" type="Node2D" parent="Player/Visual"]
+script = ExtResource("4_skin")
+visual_id = "player_primordial"
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position_smoothing_enabled = true
+
+[node name="HUD" type="CanvasLayer" parent="."]
+
+[node name="TitleLabel" type="Label" parent="HUD"]
+offset_left = 112.0
+offset_top = 20.0
+offset_right = 412.0
+offset_bottom = 60.0
+theme_overrides/font_sizes/font_size = 24
+text = "原初位面"
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="HintLabel" type="Label" parent="HUD"]
+offset_left = 240.0
+offset_top = 620.0
+offset_right = 1040.0
+offset_bottom = 670.0
+theme_overrides/font_sizes/font_size = 20
+text = "WASD 移动 · 空格 疾行 · 鼠标点击设施进入"
+horizontal_alignment = 1
+vertical_alignment = 1
+mouse_filter = 2
+
+[node name="KeyHintLabel" type="Label" parent="HUD"]
+offset_left = 770.0
+offset_top = 20.0
+offset_right = 1160.0
+offset_bottom = 56.0
+theme_overrides/font_sizes/font_size = 14
+text = "Y 功法库（仅此处） · Tab 角色信息 · ESC 退出"
+horizontal_alignment = 2
+vertical_alignment = 1
+mouse_filter = 2

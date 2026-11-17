@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://tools/measure_open_fight_cost.gd" id="1"]
+
+[node name="MeasureOpenFightCost" type="Node"]
+script = ExtResource("1")

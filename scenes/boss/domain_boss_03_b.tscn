@@ -1,0 +1,71 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/boss/domain_boss_03_b.gd" id="1_boss03b"]
+[ext_resource type="Script" path="res://scripts/visual/skin_visual.gd" id="2_skin"]
+
+[sub_resource type="CircleShape2D" id="Shape_boss03b_top"]
+radius = 20.0
+
+[sub_resource type="CircleShape2D" id="Shape_boss03b_mid"]
+radius = 46.0
+
+[sub_resource type="CircleShape2D" id="Shape_boss03b_low"]
+radius = 42.0
+
+[sub_resource type="CircleShape2D" id="Shape_boss03b_feet"]
+radius = 14.0
+
+
+[node name="DomainBoss03B" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 1
+motion_mode = 1
+script = ExtResource("1_boss03b")
+boss_id = "boss_03_b"
+max_hp = 15500.0
+attack_power = 96.0
+RANGED_STOP_DISTANCE = 260.0
+MOVE_SPEED_P1 = 100.0
+MOVE_SPEED_P2 = 120.0
+WINDUP_TIME_P1 = 0.78
+WINDUP_TIME_P2 = 0.62
+RECOVER_TIME_P1 = 0.50
+RECOVER_TIME_P2 = 0.42
+STAGGER_TIME = 1.0
+
+[node name="CollisionShape2D_top" type="CollisionShape2D" parent="."]
+position = Vector2(5, -58)
+shape = SubResource("Shape_boss03b_top")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -10)
+shape = SubResource("Shape_boss03b_mid")
+
+[node name="CollisionShape2D_low" type="CollisionShape2D" parent="."]
+position = Vector2(15, 40)
+shape = SubResource("Shape_boss03b_low")
+
+[node name="CollisionShape2D_feet" type="CollisionShape2D" parent="."]
+position = Vector2(25, 84)
+shape = SubResource("Shape_boss03b_feet")
+
+[node name="Visual" type="Node2D" parent="."]
+
+[node name="Skin" type="Node2D" parent="Visual"]
+modulate = Color(1.10, 1.04, 1.00, 1)
+script = ExtResource("2_skin")
+visual_id = "boss_lizhao"
+
+[node name="HPBarBG" type="ColorRect" parent="."]
+mouse_filter = 2
+offset_left = -32.0
+offset_top = -178.0
+offset_right = 32.0
+offset_bottom = -170.0
+color = Color(0.2, 0.2, 0.2, 0.8)
+
+[node name="HPBar" type="ColorRect" parent="HPBarBG"]
+mouse_filter = 2
+offset_right = 64.0
+offset_bottom = 8.0
+color = Color(0.9, 0.2, 0.2, 1.0)

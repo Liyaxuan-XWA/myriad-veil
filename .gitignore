@@ -1,0 +1,24 @@
+# Godot 缓存与导出
+.godot/
+/android/
+/发布版/
+/output/
+
+# 平台/系统杂项
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 临时与备份
+/tmp_*
+*.bak
+*.bak_*
+
+# Python
+__pycache__/
+*.pyc
+
+# 本仓库不含美术大件（见 README「关于这份仓库」）
+# 需要时把 assets/ 放回本地即可，不提交
+/vibe_images/
+/.scratch/

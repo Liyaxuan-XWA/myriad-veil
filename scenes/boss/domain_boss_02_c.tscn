@@ -1,0 +1,63 @@
+[gd_scene load_steps=6 format=3]
+
+[ext_resource type="Script" path="res://scripts/boss/domain_boss_02_c.gd" id="1_boss02c"]
+[ext_resource type="Script" path="res://scripts/visual/skin_visual.gd" id="2_skin"]
+
+[sub_resource type="CircleShape2D" id="Shape_boss02c_top"]
+radius = 30.0
+
+[sub_resource type="CircleShape2D" id="Shape_boss02c_mid"]
+radius = 46.0
+
+[sub_resource type="CircleShape2D" id="Shape_boss02c_low"]
+radius = 40.0
+
+
+[node name="DomainBoss02C" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 1
+motion_mode = 1
+script = ExtResource("1_boss02c")
+boss_id = "boss_02_c"
+max_hp = 5000.0
+attack_power = 33.0
+RANGED_STOP_DISTANCE = 210.0
+MOVE_SPEED_P1 = 96.0
+MOVE_SPEED_P2 = 116.0
+WINDUP_TIME_P1 = 0.82
+WINDUP_TIME_P2 = 0.68
+RECOVER_TIME_P1 = 0.55
+RECOVER_TIME_P2 = 0.45
+STAGGER_TIME = 1.1
+
+[node name="CollisionShape2D_top" type="CollisionShape2D" parent="."]
+position = Vector2(0, -44)
+shape = SubResource("Shape_boss02c_top")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -2)
+shape = SubResource("Shape_boss02c_mid")
+
+[node name="CollisionShape2D_low" type="CollisionShape2D" parent="."]
+position = Vector2(0, 44)
+shape = SubResource("Shape_boss02c_low")
+
+[node name="Visual" type="Node2D" parent="."]
+
+[node name="Skin" type="Node2D" parent="Visual"]
+script = ExtResource("2_skin")
+visual_id = "boss_qijun"
+
+[node name="HPBarBG" type="ColorRect" parent="."]
+mouse_filter = 2
+offset_left = -32.0
+offset_top = -168.0
+offset_right = 32.0
+offset_bottom = -160.0
+color = Color(0.2, 0.2, 0.2, 0.8)
+
+[node name="HPBar" type="ColorRect" parent="HPBarBG"]
+mouse_filter = 2
+offset_right = 64.0
+offset_bottom = 8.0
+color = Color(0.9, 0.2, 0.2, 1.0)

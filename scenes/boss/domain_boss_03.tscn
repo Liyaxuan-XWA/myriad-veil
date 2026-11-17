@@ -1,0 +1,121 @@
+[gd_scene load_steps=14 format=3]
+
+[ext_resource type="Script" path="res://scripts/boss/domain_boss_03.gd" id="1_boss03"]
+[ext_resource type="Script" path="res://scripts/visual/skin_visual.gd" id="2_skin"]
+
+[sub_resource type="CircleShape2D" id="Shape_b03_chest"]
+radius = 28.0
+
+[sub_resource type="CircleShape2D" id="Shape_b03_robe"]
+radius = 28.0
+
+[sub_resource type="CircleShape2D" id="Shape_b03_drum"]
+radius = 26.0
+
+[sub_resource type="CircleShape2D" id="Shape_b03_cape"]
+radius = 24.0
+
+[sub_resource type="CircleShape2D" id="Shape_b03_hem_r"]
+radius = 24.0
+
+[sub_resource type="CircleShape2D" id="Shape_b03_waist"]
+radius = 28.0
+
+[sub_resource type="CircleShape2D" id="Shape_b03_crest"]
+radius = 10.0
+
+[sub_resource type="CircleShape2D" id="Shape_b03_hem_b"]
+radius = 10.0
+
+[sub_resource type="CircleShape2D" id="Shape_b03_flank"]
+radius = 14.0
+
+[sub_resource type="CircleShape2D" id="Shape_b03_shoulder"]
+radius = 10.0
+
+[sub_resource type="CapsuleShape2D" id="Shape_b03_pen"]
+radius = 6.0
+height = 42.0
+
+
+[node name="DomainBoss03" type="CharacterBody2D"]
+collision_layer = 2
+collision_mask = 1
+motion_mode = 1
+script = ExtResource("1_boss03")
+boss_id = "boss_03"
+max_hp = 13000.0
+attack_power = 90.0
+RANGED_STOP_DISTANCE = 220.0
+MOVE_SPEED_P1 = 92.0
+MOVE_SPEED_P2 = 112.0
+WINDUP_TIME_P1 = 0.82
+WINDUP_TIME_P2 = 0.68
+RECOVER_TIME_P1 = 0.55
+RECOVER_TIME_P2 = 0.45
+STAGGER_TIME = 1.1
+
+[node name="CollisionShape2D_chest" type="CollisionShape2D" parent="."]
+position = Vector2(-33, -15)
+shape = SubResource("Shape_b03_chest")
+
+[node name="CollisionShape2D_waist" type="CollisionShape2D" parent="."]
+position = Vector2(-18, 9)
+shape = SubResource("Shape_b03_waist")
+
+[node name="CollisionShape2D_robe" type="CollisionShape2D" parent="."]
+position = Vector2(-33, 42)
+shape = SubResource("Shape_b03_robe")
+
+[node name="CollisionShape2D_drum" type="CollisionShape2D" parent="."]
+position = Vector2(-60, -15)
+shape = SubResource("Shape_b03_drum")
+
+[node name="CollisionShape2D_cape" type="CollisionShape2D" parent="."]
+position = Vector2(-60, 45)
+shape = SubResource("Shape_b03_cape")
+
+[node name="CollisionShape2D_hem_r" type="CollisionShape2D" parent="."]
+position = Vector2(-12, 57)
+shape = SubResource("Shape_b03_hem_r")
+
+[node name="CollisionShape2D_crest" type="CollisionShape2D" parent="."]
+position = Vector2(-30, -51)
+shape = SubResource("Shape_b03_crest")
+
+[node name="CollisionShape2D_hem_b" type="CollisionShape2D" parent="."]
+position = Vector2(-39, 78)
+shape = SubResource("Shape_b03_hem_b")
+
+[node name="CollisionShape2D_flank" type="CollisionShape2D" parent="."]
+position = Vector2(-48, 18)
+shape = SubResource("Shape_b03_flank")
+
+[node name="CollisionShape2D_shoulder" type="CollisionShape2D" parent="."]
+position = Vector2(-10, -28)
+shape = SubResource("Shape_b03_shoulder")
+
+[node name="CollisionShape2D_pen" type="CollisionShape2D" parent="."]
+position = Vector2(26, 24)
+rotation = -0.72
+shape = SubResource("Shape_b03_pen")
+
+[node name="Visual" type="Node2D" parent="."]
+
+[node name="Skin" type="Node2D" parent="Visual"]
+script = ExtResource("2_skin")
+visual_id = "boss_heiliao"
+
+[node name="HPBarBG" type="ColorRect" parent="."]
+mouse_filter = 2
+offset_left = -32.0
+offset_top = -178.0
+offset_right = 32.0
+offset_bottom = -170.0
+color = Color(0.2, 0.2, 0.2, 0.8)
+
+[node name="HPBar" type="ColorRect" parent="HPBarBG"]
+mouse_filter = 2
+offset_right = 64.0
+offset_bottom = 8.0
+color = Color(0.9, 0.2, 0.2, 1.0)
