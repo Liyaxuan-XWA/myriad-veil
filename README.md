@@ -3,6 +3,8 @@
 单人开发的修仙动作 RPG：**打 BOSS、养装备、集法宝**——BOSS 首杀后还能**学会它自己的招式**；再用卡牌自走棋与 Roguelite 轮换玩法防止玩腻。**Godot 4.7 / GDScript**，Windows 与 Android 双端，已出 2.x 安装包。
 
 > 这份仓库是**作品集版本**：包含全部游戏代码、Python 工具链与设计文档；美术资源与字体已裁剪（原因见文末「关于这份仓库」）。
+>
+> ▶ **[下载试玩版：Windows / Android](https://github.com/Liyaxuan-XWA/myriad-veil/releases/latest)**（免安装，约 250–320MB）
 
 ![主城](screenshots/02_city.webp)
 
@@ -99,7 +101,7 @@ assets/       仅保留 shader / 特效 / 图标（美术与字体已裁剪）
 
 - **不含完整美术与字体**：完整 `assets/` 约 450MB（含一套 21MB 的中文书法字体，授权仅限个人使用），
   不适合放进公开仓库；因此**不能 clone 后直接运行**，Godot 打开会提示缺失资源，属预期。
-- 想跑起来：完整包 / Windows 与 Android 安装包可以单独提供（或见 Releases）。
+- 想直接玩：[Releases](https://github.com/Liyaxuan-XWA/myriad-veil/releases/latest) 里有 Windows 免安装 exe 与 Android APK；完整工程（含美术与字体）可以单独提供。
 - 代码、工具、文档都是真实开发过程产物，未做「展示用」精简。
 
 ## 文档
