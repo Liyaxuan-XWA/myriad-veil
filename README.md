@@ -8,7 +8,7 @@
 >
 > 这份仓库是**作品集版本**：代码、工具链与设计文档齐全；美术资源与字体已裁剪（见文末「关于这份仓库」）。
 
-![BOSS 战：赫连霄 · 判词·天律](screenshots/05_boss.webp)
+![BOSS 战：赫连霄 · 判词·天律](screenshots/boss_helianxiao.webp)
 
 ## 玩法
 
@@ -22,23 +22,23 @@
 
 | | |
 | --- | --- |
-| ![赫连霄](screenshots/05_boss.webp)<br>赫连霄 · 判词·天律（两阶段，判词四律 + 雷势） | ![手机战斗](screenshots/04_combat_mobile.webp)<br>手机端：左下摇杆 + 攻 / 弹 / 闪 / 功 1~4 |
+| ![赫连霄](screenshots/boss_helianxiao.webp)<br>赫连霄 · 判词·天律（两阶段，判词四律 + 雷势） | ![手机战斗](screenshots/combat_mobile.webp)<br>手机端：左下摇杆 + 攻 / 弹 / 闪 / 功 1~4 |
 
 ## 世界
 
 | | |
 | --- | --- |
-| ![主城](screenshots/02_city.webp)<br>原初位面（主城）：设施入口与任务指引 | ![大世界](screenshots/03_world.webp)<br>苍澜大陆 · 青岚野 |
-| ![九天之上](screenshots/06_jiutian.webp)<br>九天之上：玉台与云海 | ![化神坛](screenshots/07_jiutian_altar.webp)<br>化神坛：开过九天门才能进来突破化神 |
+| ![主城](screenshots/city_primordial.webp)<br>原初位面（主城）：设施入口与任务指引 | ![大世界](screenshots/world_qinglanye.webp)<br>苍澜大陆 · 青岚野 |
+| ![九天之上](screenshots/jiutian_wide.webp)<br>九天之上：玉台与云海 | ![化神坛](screenshots/jiutian_altar.webp)<br>化神坛：开过九天门才能进来突破化神 |
 
 ## 养成与图鉴
 
 | | |
 | --- | --- |
-| ![锻造](screenshots/08_forge.webp)<br>锻造台：上砧、随机词条、自动落锤 | ![制符](screenshots/09_talisman.webp)<br>制符台：七系元素符，品阶印嵌进符胆 |
-| ![炼丹](screenshots/10_alchemy.webp)<br>炼丹炉：一炉只炼一味，火候分三成到十成 | ![功法库](screenshots/11_skill.webp)<br>功法库：4 键主动槽 + 被动 + 门派分册 |
-| ![万界图鉴](screenshots/12_codex.webp)<br>万界图鉴：BOSS 卡与属性 | ![万界塔](screenshots/13_tower.webp)<br>万界塔：逐层挑战与讨伐详情 |
-| ![虎妖四张卡](screenshots/14_cards.webp)<br>成就收藏 · 虎妖四张卡（普通 / 华彩·有背景 / 纯华彩 / 纸本水墨） | ![开始界面](screenshots/01_title.webp)<br>开始界面 |
+| ![锻造](screenshots/forge.webp)<br>锻造台：上砧、随机词条、自动落锤 | ![制符](screenshots/talisman.webp)<br>制符台：七系元素符，品阶印嵌进符胆 |
+| ![炼丹](screenshots/alchemy.webp)<br>炼丹炉：一炉只炼一味，火候分三成到十成 | ![功法库](screenshots/skill_library.webp)<br>功法库：4 键主动槽 + 被动 + 门派分册 |
+| ![万界图鉴](screenshots/codex.webp)<br>万界图鉴：BOSS 卡与属性 | ![万界塔](screenshots/tower.webp)<br>万界塔：逐层挑战与讨伐详情 |
+| ![虎妖四张卡](screenshots/cards_huyao.webp)<br>成就收藏 · 虎妖四张卡（普通 / 华彩·有背景 / 纯华彩 / 纸本水墨） | ![开始界面](screenshots/title_screen.webp)<br>开始界面 |
 
 ## 技术与规模
 
